@@ -10,12 +10,16 @@
             //counter++;
         //}
     //}
-    const typedText = document.getElementById('textBox');
+    const typedText = document.getElementById("textBox");
     console.log(typedText);
     //`Number of Vowels: ${counter}`
     //return counter;
 //}
 
 //create an event listener that starts the vowel count when the user clicks on the 'go' button.
+
+//const emoji = document.createElement('span')
+        //emoji.textContent = myEmojis[i]
+        //emojiContainer.append(emoji)
 
 
