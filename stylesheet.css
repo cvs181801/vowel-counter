@@ -10,4 +10,6 @@ body {
         background: -o-linear-gradient(right, red, orange, yellow, green, cyan, blue ); /* For Opera 11.1 to 12.0 */
         background: -moz-linear-gradient(right, red, orange, yellow, green, cyan, blue ); /* For Firefox 3.6 to 15 */
         background: linear-gradient(to right, red, orange , yellow, green, cyan, blue); /* Standard syntax (must be last) */
-}
+        align-content: center;
+
+    }
