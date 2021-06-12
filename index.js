@@ -32,7 +32,7 @@ countVowelsIterative(textValue);
   goButton.addEventListener('click', function() {
      return countVowelsIterative(textValue)});
 
-
+countVowelsIterative(textValue);
 
 
 
