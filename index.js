@@ -1,37 +1,32 @@
 
-// //define the vowels, and start counter at 0
-// const vowels = ["a", "e", "i", "o", "u"]
-// let counter = 0;
+//define the vowels, and start counter at 0
+const vowels = ["a", "e", "i", "o", "u"]
+let counter = 0;
 
-// //grab the elements
+//grab the elements
   const goButton = document.getElementById("go-btn");
-  //const textValue = document.getElementById("textBox").value;
+  const textValue = document.getElementById("textBox").value;
 
  //create an event listener that starts the vowel count when the user clicks on the 'go' button.
- goButton.addEventListener ('click', function() {
-     console.log("what's shakin");
- });
+ goButton.addEventListener ('click', countVowelsIterative());
 
 
- 
-
-// //create a way to count the vowels in the text the user types in
-// function countVowelsIterative(textValue) {
-//     let counter = 0;
-//     for (let letter of textValue.toLowerCase()) {
-//         if (vowels.includes(letter)) {
-//             counter++;
-//         }  
-//     }
-//     const parentDiv = document.getElementById("resultDiv");
-//     const renderCounter = document.createElement('p');
-//     renderCounter.innerText = `Number of Vowels: ${counter}`;
-//     parentDiv.append(renderCounter);
-//     return counter;
+//create a way to count the vowels in the text the user types in
+function countVowelsIterative(textValue) {
+    let counter = 0;
+    for (let letter of textValue.toLowerCase()) {
+        if (vowels.includes(letter)) {
+            counter++;
+        }  
+    }
+    const parentDiv = document.getElementById("resultDiv");
+    const renderCounter = document.createElement('p');
+    renderCounter.innerText = `Number of Vowels: ${counter}`;
+    parentDiv.append(renderCounter);
+    return counter;
     
-// }
+}
 
-//  countVowelsIterative();
 
 
 
