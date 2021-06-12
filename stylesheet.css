@@ -13,3 +13,7 @@ body {
         align-content: center;
 
     }
+
+    .go-btn {
+        size: 3em;
+    }
