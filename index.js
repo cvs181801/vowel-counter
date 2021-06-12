@@ -13,7 +13,7 @@ let counter = 0;
 //create a way to count the vowels in the text the user types in
 function countVowelsIterative(textValue) {
     let counter = 0;
-    for (let letter of textValue) {
+    for (let letter of textValue.value) {
         if (vowels.includes(letter)) {
             counter++;
         }  
