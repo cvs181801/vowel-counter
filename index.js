@@ -1,6 +1,6 @@
 
 //define the vowels, and start counter at 0
-const vowels = ["a", "e", "i", "o", "u"]
+const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
 let counter = 0;
 
 //grab the elements
@@ -13,7 +13,7 @@ let counter = 0;
 //create a way to count the vowels in the text the user types in
 function countVowelsIterative(textValue) {
     let counter = 0;
-    for (let letter of textValue.toLowerCase()) {
+    for (let letter of textValue) {
         if (vowels.includes(letter)) {
             counter++;
         }  
@@ -29,7 +29,7 @@ function countVowelsIterative(textValue) {
 countVowelsIterative(textValue);
 
  //create an event listener that starts the vowel count when the user clicks on the 'go' button.
-  goButton.addEventListener("click", countVowelsIterative);
+  //goButton.addEventListener("click", countVowelsIterative);
 
 //countVowelsIterative(textValue);
 
