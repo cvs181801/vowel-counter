@@ -1,39 +1,33 @@
 
-//define the vowels
+//define the vowels, and start counter at 0
 const vowels = ["a", "e", "i", "o", "u"]
+let counter = 0;
 
-//create a way to check each letter of the inserted text for vowels
-function countVowelsIterative(text) {
+//create an event listener that starts the vowel count when the user clicks on the 'go' button.
+goButton.addEventListener ('click', countVowelsIterative());
+
+//grab the elements
+const goButton = document.getElementById("go-btn");
+const textValue = document.getElementById("textBox").value;
+
+//create a way to count the vowels in the text the user types in
+function countVowelsIterative(textValue) {
     let counter = 0;
-    for (let letter of text.toLowerCase()) {
+    for (let letter of textValue.toLowerCase()) {
         if (vowels.includes(letter)) {
             counter++;
         }  
     }
-    // const parentDiv = document.getElementById("buttonContainer");
-    // const renderCounter = document.createElement('p');
-    // renderCounter.innerText = `Number of Vowels: ${counter}`;
-    // parentDiv.append(renderCounter);
+    const parentDiv = document.getElementById("resultDiv");
+    const renderCounter = document.createElement('p');
+    renderCounter.innerText = `Number of Vowels: ${counter}`;
+    parentDiv.append(renderCounter);
     return counter;
     
 }
 
-countVowelsIterative();
+ countVowelsIterative();
 
-
-//create an event listener that starts the vowel count when the user clicks on the 'go' button.
-
- const goButton = document.getElementById("go-btn");
-
-
- goButton.addEventListener ('click', function() {
-    const textValue = document.getElementById("textBox");
-     if (textValue.value){
-     //return countVowelsIterative()
-     console.log("weeee!");
-     }
-    
- })
 
 
 
