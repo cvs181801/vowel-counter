@@ -16,9 +16,10 @@ function countVowelsIterative(textValue) {
             counter++;
         }  
     }
-    renderCounter.innerText = '';
+    counter = 0;
     const parentDiv = document.getElementById("resultDiv");
     const renderCounter = document.createElement('p');
+    renderCounter.innerText = '';
     renderCounter.innerText = `Number of Vowels: ${counter}`;
     parentDiv.append(renderCounter);
     return counter;
@@ -28,7 +29,6 @@ function countVowelsIterative(textValue) {
 
  //create an event listener that starts the vowel count when the user clicks on the 'go' button.
  goButton.addEventListener('click', event => {
-    counter = 0;
     countVowelsIterative()
  });
 
