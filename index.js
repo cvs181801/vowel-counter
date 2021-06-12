@@ -18,7 +18,7 @@
        console.log(parentDiv);
        const renderCounter = document.createElement('p');
        console.log(renderCounter);
-       renderCounter.innerText = `Number of Vowels: ${counter}`;
+       renderCounter.innerText = "Hi hi hi"; //`Number of Vowels: ${counter}`;
        parentDiv.append(renderCounter);
 
 // //create a way to count the vowels in the text the user types in
