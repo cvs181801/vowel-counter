@@ -1,6 +1,6 @@
-root {
-    font-family: 'Monoton', cursive;
-    font-family: 'Montserrat Alternates', sans-serif;
+:root {
+    --ff-Accent: 'Monoton', cursive;
+    --ff-Main: 'Montserrat Alternates', sans-serif;
 }
 
 html {
@@ -8,14 +8,26 @@ html {
 }
 
 body {
-        height: 200px;
-        background: red; /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(left, rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245)); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(right, rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245 ); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(right,  rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245 ); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(to right, rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245); /* Standard syntax (must be last) */  
+    height: 200px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,  rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245 ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245); /* Standard syntax (must be last) */  
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    font-family: var(--ff-Main);
     }
 
-.go-btn {
+h1 {
+    font-family: var(--ff-Accent);
+}    
+
+#buttonContainer {
+    width: 30em;
+}    
+
+#go-btn {
         size: 100em;
     }
