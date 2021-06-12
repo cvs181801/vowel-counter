@@ -25,7 +25,7 @@ function countVowelsIterative(textValue) {
     return counter;
     
 }
-//countVowelsIterative(textValue);
+countVowelsIterative(textValue);
 
  //create an event listener that starts the vowel count when the user clicks on the 'go' button.
  goButton.addEventListener('click', event => {
