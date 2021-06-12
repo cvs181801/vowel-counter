@@ -10,7 +10,10 @@ function countVowelsIterative(text) {
             counter++;
         }  
     }
-    //console.log(`Vowel Count: ${counter}`);
+    const parentDiv = document.getElementById("buttonContainer");
+    const renderCounter = document.createElement('p');
+    renderCounter.innerText = `Number of Vowels: ${counter}`;
+    parentDiv.append(renderCounter);
     return counter;
     
 }
@@ -27,10 +30,7 @@ countVowelsIterative();
      if (textValue.value){
      return countVowelsIterative()
      }
-    const parentDiv = document.getElementById("buttonContainer");
-    const renderCounter = document.createElement('p');
-    renderCounter.innerText = `Number of Vowels: ${counter}`;
-    parentDiv.append(renderCounter);
+    
  })
 
 
