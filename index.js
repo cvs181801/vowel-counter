@@ -28,7 +28,7 @@ function countVowelsIterative(textValue) {
 }
 
 
-
+countVowelsIterative(textValue);
 
 
 
