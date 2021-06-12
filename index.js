@@ -24,9 +24,10 @@ countVowelsIterative();
 //create an event listener that starts the vowel count when the user clicks on the 'go' button.
 
  const goButton = document.getElementById("go-btn");
- const textValue = document.getElementById("textBox");
+
 
  goButton.addEventListener ('click', function() {
+    const textValue = document.getElementById("textBox");
      if (textValue.value){
      //return countVowelsIterative()
      console.log("weeee!");
