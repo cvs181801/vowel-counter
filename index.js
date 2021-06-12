@@ -33,7 +33,7 @@ countVowelsIterative(textValue);
      return countVowelsIterative(textValue);
     });
 
-//countVowelsIterative(textValue);
+countVowelsIterative(textValue);
 
 
 
