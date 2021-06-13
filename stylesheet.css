@@ -24,7 +24,18 @@ body {
 
 h1 {
     font-family: var(--ff-Accent);
+    text-align: center;
+    margin-bottom: 1em;
 }    
+
+h2 {
+    text-align: center;
+    margin-bottom: 1em; 
+}
+
+.text-box {
+    text-align: center;
+}
 
 #buttonContainer {
     width: 30em;
