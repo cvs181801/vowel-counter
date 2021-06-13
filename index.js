@@ -9,7 +9,7 @@
   const parentDiv = document.getElementById("resultDiv");
   const renderCounter = document.createElement('p');
 
-//let textValueArr = [];
+//let text = textValue.Value;
 
 function countVowelsIterative(text) {
     let counter = 0;
@@ -76,7 +76,7 @@ function countVowelsIterative(text) {
 //       return countVowelsIterative(textValue.value);
 //   });
   
-countVowelsIterative();
+countVowelsIterative(textValue.Value);
 
 
 
