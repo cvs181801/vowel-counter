@@ -62,7 +62,7 @@ function countVowelsIterative(text) {
 //       return countVowelsIterative(textValue.value);
 //   });
   
-countVowelsIterative(text);
+countVowelsIterative();
 
 
 
