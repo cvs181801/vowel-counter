@@ -19,10 +19,10 @@ function countVowelsIterative(text) {
         counter++
       }
     }
-  
-    console.log(`The text contains ${counter} vowel(s)`)
-  
-    return counter
+        renderCounter.innerText = '';
+        renderCounter.innerText = `Number of Vowels: ${counter}`;
+        parentDiv.append(renderCounter);
+        return counter;
   }
 
 
