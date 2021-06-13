@@ -32,7 +32,7 @@
   
 //*** data value test */
 
-console.log(textValue);
+console.log(typeof(textValue));
 
 
 
