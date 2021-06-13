@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     align-content: center;
     font-family: var(--ff-Main);
-    font-size: 2rem;
+    font-size: 1rem;
     /*background: -moz-linear-gradient(right,  rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245 );  For Firefox 3.6 to 15 
     background: linear-gradient(to right, rgb(252, 201, 201), rgb(250, 225, 178) , rgb(245, 245, 169), rgb(182, 250, 182), rgb(176, 245, 245), rgb(155, 155, 245);  Standard syntax (must be last) */  
     
@@ -31,7 +31,8 @@ h1 {
 }    
 
 #go-btn {
-        size: 100em;
+        size: 150em;
+        font-family: var(--ff-Main);
     }
 
 @media (max-width: 600px) {
