@@ -76,7 +76,7 @@ function countVowelsIterative(text) {
 //       return countVowelsIterative(textValue.value);
 //   });
   
-countVowelsIterative(textValue.Value);
+countVowelsIterative(textValue.value);
 
 
 
