@@ -32,6 +32,7 @@ let counter = 0;
 //I rerwrote the above function using a while loop instead.
 function countVowelsIterative(text) {
     let counter = 0;
+    textValueArr.push(textValue.value);
     while (textValueArr.length) {
         counter++;
     }
