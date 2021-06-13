@@ -28,7 +28,8 @@ h1 {
     margin-bottom: 1em;
 }    
 
-h2 {
+h2,
+p {
     text-align: center;
     margin-bottom: 1em; 
 }
@@ -39,15 +40,19 @@ h2 {
 
 #buttonContainer {
     width: 30em;
+    text-align: center;
 }    
 
 #go-btn {
-        size: 150em;
+        size: 200em;
         font-family: var(--ff-Main);
     }
 
 @media (max-width: 600px) {
     body {
     flex-direction: column;
+    }
+    h1 {
+        font-size: 2em;
     }
 }    
