@@ -5,17 +5,17 @@
 
 // //grab the elements
 //   const goButton = document.getElementById("go-btn");
-//   const textValue = document.getElementById("textBox");
+   const textValue = document.getElementById("textBox");
 //   const parentDiv = document.getElementById("resultDiv");
 //   const renderCounter = document.createElement('p');
 
-//   textValueArr = [];
+   textValueArr = [textValue.value];
 
 
-function countVowelsIterative(text) {
+function countVowelsIterative(textValueArr) {
   let counter = 0
 
-  for (let letter of text) {
+  for (let letter of textValueArr) {
     if (vowels.includes(letter)) {
       counter++
     }
