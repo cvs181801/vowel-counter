@@ -10,21 +10,22 @@
 //   const renderCounter = document.createElement('p');
 
 let textValueArr = [];
+textValueArr = [textValue.value];
+console.log(textValueArr);
 
+// function countVowelsIterative(textValueArr) {
+//   let counter = 0
+//   textValueArr = [textValue.value];
+//   for (let letter of textValueArr) {
+//     if (vowels.includes(letter)) {
+//       counter++
+//     }
+//   }
 
-function countVowelsIterative(textValueArr) {
-  let counter = 0
-  textValueArr = [textValue.value];
-  for (let letter of textValueArr) {
-    if (vowels.includes(letter)) {
-      counter++
-    }
-  }
+//   console.log(`The text contains ${counter} vowel(s)`)
 
-  console.log(`The text contains ${counter} vowel(s)`)
-
-  return counter
-}
+//   return counter
+// }
 // //create a way to count the vowels in the text the user types in
 // // function countVowelsIterative(text) {
 // //     let counter = 0;
@@ -62,7 +63,7 @@ function countVowelsIterative(textValueArr) {
 //       return countVowelsIterative(textValue.value);
 //   });
   
-countVowelsIterative();
+//countVowelsIterative();
 
 
 
