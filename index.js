@@ -9,12 +9,12 @@
 //   const parentDiv = document.getElementById("resultDiv");
 //   const renderCounter = document.createElement('p');
 
-   textValueArr = [textValue.value];
+let textValueArr = [];
 
 
 function countVowelsIterative(textValueArr) {
   let counter = 0
-
+  textValueArr = [textValue.value];
   for (let letter of textValueArr) {
     if (vowels.includes(letter)) {
       counter++
