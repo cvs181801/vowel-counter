@@ -9,21 +9,36 @@ let counter = 0;
   const parentDiv = document.getElementById("resultDiv");
   const renderCounter = document.createElement('p');
 
+  textValueArr = [];
+
 
 //create a way to count the vowels in the text the user types in
+// function countVowelsIterative(text) {
+//     let counter = 0;
+//     textValueArr.push(textValue.value); 
+//     for (let letter of textValueArr) {
+//         if (textValueArr.includes(letter)) {
+//             counter++;
+//         }  
+//     }
+    
+//     renderCounter.innerText = '';
+//     renderCounter.innerText = `Number of Vowels: ${counter}`;
+//     parentDiv.append(renderCounter);
+//     return counter;
+    
+// }
+
+//I rerwrote the above function using a while loop instead.
 function countVowelsIterative(text) {
     let counter = 0;
-    for (let letter of vowels) {
-        if (vowels.includes(letter)) {
-            counter++;
-        }  
+    while (textValueArr.length) {
+        counter++;
     }
-    
-    renderCounter.innerText = '';
-    renderCounter.innerText = `Number of Vowels: ${counter}`;
-    parentDiv.append(renderCounter);
-    return counter;
-    
+     renderCounter.innerText = '';
+     renderCounter.innerText = `Number of Vowels: ${counter}`;
+     parentDiv.append(renderCounter);
+     return counter;
 }
 
 countVowelsIterative(textValue);
