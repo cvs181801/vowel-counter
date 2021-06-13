@@ -5,7 +5,7 @@
 
 // //grab the elements
 //   const goButton = document.getElementById("go-btn");
-   const textValue = document.getElementById("textBox").value;
+   const textValue = document.getElementById("textBox");
 //   const parentDiv = document.getElementById("resultDiv");
 //   const renderCounter = document.createElement('p');
 
@@ -32,7 +32,7 @@
   
 //*** data value test */
 
-console.log(typeof(textValue));
+console.log(typeof(textValue.value));
 
 
 
