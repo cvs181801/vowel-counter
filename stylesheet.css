@@ -40,12 +40,14 @@ p {
 
 #buttonContainer {
     width: 30em;
-    text-align: center;
+    align-content: center;
 }    
 
 #go-btn {
-        size: 200em;
+        font-size: 3em;
         font-family: var(--ff-Main);
+        align-content: center;
+        background-color: aqua;
     }
 
 @media (max-width: 600px) {
