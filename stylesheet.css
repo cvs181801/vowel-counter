@@ -44,9 +44,9 @@ p {
 }    
 
 #go-btn {
-        font-size: 3em;
+        font-size: 2em;
         font-family: var(--ff-Main);
-        align-content: center;
+        float: center;
         background-color: aqua;
     }
 
