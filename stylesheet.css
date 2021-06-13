@@ -40,7 +40,7 @@ p {
 
 #buttonContainer {
     width: 30em;
-    align-content: center;
+    float: center;
 }    
 
 #go-btn {
